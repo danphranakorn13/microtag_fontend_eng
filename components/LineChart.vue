@@ -70,10 +70,9 @@ export default {
       type: Array,
       default: () => [],
     },
-  },
-  data() {
-    return {
-      chartData: {
+    chartData: {
+      type: Object,
+      default: () => ({
         labels: [
           "0",
           "10",
@@ -97,7 +96,36 @@ export default {
             data: [40, 39, 10, 40, 39, 80, 35, 40, 39, 10, 40, 39, 80, 35],
           },
         ],
-      },
+      }),
+    }
+  },
+  data() {
+    return {
+      // chartData: {
+      //   labels: [
+      //     "0",
+      //     "10",
+      //     "20",
+      //     "30",
+      //     "40",
+      //     "50",
+      //     "60",
+      //     "0",
+      //     "10",
+      //     "20",
+      //     "30",
+      //     "40",
+      //     "50",
+      //     "60",
+      //   ],
+      //   datasets: [
+      //     {
+      //       borderColor: "#15803d",
+      //       backgroundColor: "#166534",
+      //       data: [40, 39, 10, 40, 39, 80, 35, 40, 39, 10, 40, 39, 80, 35],
+      //     },
+      //   ],
+      // },
       chartOptions: {
         scales: {
           x: {

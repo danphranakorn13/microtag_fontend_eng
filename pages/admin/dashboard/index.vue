@@ -36,12 +36,12 @@
                     />     
                 </longdo-map> 
             </div>
-            <div class="col-span-12 p-5 bg-white rounded shadow-md md:col-span-4">
-                <h2 class="mb-2 text-xl">ภาพรวมรถบรรทุก</h2>
+            <div class="col-span-12 p-5 bg-white rounded shadow-md md:col-span-4 whitespace-nowrap">
+                <h2 class="mb-2 text-xl">Container Overview</h2>
                 <div class="flex flex-wrap items-center justify-between mb-5">
                     <div class="order-2 w-full text-right lg:order-1 lg:w-1/2 lg:pr-8">   
-                        <p class="text-gray-500">รถบรรทุกทั้งหมด</p>
-                        <h2 class="text-xl font-bold">120 คัน</h2>
+                        <p class="text-gray-500">Container total</p>
+                        <h2 class="text-xl font-bold">120</h2>
                     </div>
                     <div class="w-full bg-blue-100 lg:w-1/2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto" fill="currentColor" viewBox="0 0 16 16">
@@ -52,8 +52,8 @@
                 <div class="lg:mt-20">
                     <div class="mb-5">
                         <div class="flex items-center justify-between ">
-                            <h2 class="mb-2 text-lg">ว่างงาน</h2>
-                            <p>80 คัน</p>
+                            <h2 class="mb-2 text-lg">Available</h2>
+                            <p>80</p>
                         </div>
                         <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 66%"></div>
@@ -61,8 +61,8 @@
                     </div>
                     <div class="mb-5">
                         <div class="flex items-center justify-between ">
-                            <h2 class="mb-2 text-lg">กำลังทำงาน</h2>
-                            <p>20 คัน</p>
+                            <h2 class="mb-2 text-lg">Working</h2>
+                            <p>20</p>
                         </div>
                         <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 16%"></div>
@@ -70,8 +70,8 @@
                     </div>
                     <div class="mb-5">
                         <div class="flex items-center justify-between ">
-                            <h2 class="mb-2 text-lg">ซ่อมแซม</h2>
-                            <p>20 คัน</p>
+                            <h2 class="mb-2 text-lg">Repair</h2>
+                            <p>20</p>
                         </div>
                         <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 16%"></div>
@@ -108,8 +108,8 @@
                                     <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
                                 </svg>
                             </td>
-                            <td>JBI-002</td>
-                            <td>RTI-002</td>
+                            <td>JBI-0002</td>
+                            <td>RTI-0002</td>
                             <td><p class="text-green-800">Avalible</p></td>
                         </tr>
                         <tr>
@@ -118,8 +118,8 @@
                                     <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
                                 </svg>
                             </td>
-                            <td>JBI-003</td>
-                            <td>RTI-005</td>
+                            <td>JBI-0003</td>
+                            <td>RTI-0005</td>
                             <td><p class="text-red-800">Working</p></td>
                         </tr>
                         <tr>
@@ -128,8 +128,8 @@
                                     <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
                                 </svg>
                             </td>
-                            <td>JBI-004</td>
-                            <td>RTI-006</td>
+                            <td>JBI-0004</td>
+                            <td>RTI-0006</td>
                             <td><p class="text-green-800">Avalible</p></td>
                         </tr>
                         
@@ -196,9 +196,63 @@ export default {
             markers: [
                 {
                     location: { lon: 100.64532478914055, lat: 13.692020193933924 },
-                    title: "BM building",
+                    title: "my contaner 1",
                     detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
-                }
+                },
+                // 13.725318, 100.567476
+                {
+                    location: { lon: 100.567476, lat: 13.725318 },
+                    title: "my contaner 2",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 13.773340, 100.431520
+                {
+                    location: { lon: 100.431520, lat: 13.773340 },
+                    title: "my contaner 3",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 13.699969, 100.763856
+                {
+                    location: { lon: 100.763856, lat: 13.699969 },
+                    title: "my contaner 4",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 13.658605, 100.489198
+                {
+                    location: { lon: 100.489198, lat: 13.658605 },
+                    title: "my contaner 5",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 13.785344, 100.512544
+                {
+                    location: { lon: 100.512544, lat: 13.785344 },
+                    title: "my contaner 6",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 13.743994, 100.354616
+                {
+                    location: { lon: 100.354616, lat: 13.743994 },
+                    title: "my contaner 7",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 14.177129, 100.317537
+                {
+                    location: { lon: 100.317537, lat: 14.177129 },
+                    title: "my contaner 8",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 14.091899, 100.158235
+                {
+                    location: { lon: 100.158235, lat: 14.091899 },
+                    title: "my contaner 9",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
+                // 13.643925, 101.454622
+                {
+                    location: { lon: 101.454622, lat: 13.643925 },
+                    title: "my contaner 10",
+                    detail: "Address: 80 se-na-ka-rin nong-bon pra-veat Bangkok 10250"
+                },
             ]
         };
     },
