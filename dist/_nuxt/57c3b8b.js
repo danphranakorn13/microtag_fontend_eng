@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[40],{368:function(e,n,t){"use strict";t.r(n);var o={beforeCreate:function(){this.$router.push("/login")},layout:"newLayout",name:"IndexPage"},r=t(10),component=Object(r.a)(o,(function(){var e=this.$createElement;return(this._self._c||e)("div")}),[],!1,null,null,null);n.default=component.exports}}]);
