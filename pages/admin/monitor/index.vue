@@ -34,7 +34,7 @@
                         </div>
                         <div class="w-1/6">
                             <h4 class="text-center text-md lg:text-xl font-bold leading-tight text-gray-800 mb-2.5">
-                                35°C
+                                35°F
                             </h4>
                         </div>
                     </div>
