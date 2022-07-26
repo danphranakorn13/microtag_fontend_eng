@@ -35,7 +35,7 @@
                 <a href="#" class="flex flex-row items-center">
                     <img src="https://pbs.twimg.com/profile_images/378800000298815220/b567757616f720812125bfbac395ff54_normal.png" alt="Profile picture" class="w-10 h-10 bg-gray-200 border rounded-full"/>
                     <span class="flex flex-col ml-2">
-                        <span class="w-20 font-semibold leading-none tracking-wide truncate">John Doe</span>
+                        <span class="w-20 font-semibold leading-none tracking-wide truncate">Jennifer Doe</span>
                         <span class="w-20 mt-1 text-xs leading-none text-gray-500 truncate">Manager</span>
                     </span>
                 </a>

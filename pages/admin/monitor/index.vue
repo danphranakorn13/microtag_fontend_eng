@@ -107,11 +107,11 @@
                             <table class="w-full whitespace-no-wrap">
                                 <thead>
                                     <tr class="text-sm font-semibold tracking-wide text-left text-gray-500 uppercase border-b bg-blue-50 dark:border-gray-700 dark:text-gray-400 dark:bg-gray-800">
-                                        <th class="hidden px-4 py-3 md:table-cell">รหัสการแจ้งเตือน</th>
-                                        <th class="px-4 py-3">รายละเอียด</th>
-                                        <th class="px-4 py-3">สถานะ</th>
-                                        <th class="px-4 py-3">ส่งข้อความ</th>
-                                        <th class="hidden px-4 py-3 md:table-cell">วัน/เวลา</th>
+                                        <th class="hidden px-4 py-3 md:table-cell">NotificationID</th>
+                                        <th class="px-4 py-3">desc</th>
+                                        <th class="px-4 py-3">status</th>
+                                        <th class="px-4 py-3">message</th>
+                                        <th class="hidden px-4 py-3 md:table-cell">date time</th>
                                     </tr>
                                 </thead>
                                 <tbody v-for="(index) in 3" :key="index" class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
@@ -122,11 +122,11 @@
                                             </NuxtLink>
                                         </td>
                                         <td class="px-4 py-3">
-                                            <p class="font-semibold">ตู้ตอนเทนเนอร์ JBI-0001 อุณหภูมิเกิน 30°c</p>
+                                            <p class="font-semibold">ContainerID : JBI-0001 temperature more than 30°c</p>
                                         </td>
                                         <td class="px-4 py-3 ">
                                             <span class="px-2 py-1 text-sm font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                                แก้ไขแล้ว
+                                                Fixed
                                             </span>
                                         </td>
                                         <td class="px-4 py-3">
@@ -137,7 +137,7 @@
                                             </button>
                                         </td>
                                         <td class="hidden px-4 py-3 md:table-cell">
-                                            <p class="">21:26 น.</p>
+                                            <p class="">10:26 AM</p>
                                             <p class="">07/05/2565</p>
                                         </td>
                                     </tr>

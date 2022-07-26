@@ -15,7 +15,9 @@
                     <div class="flex justify-center md:col-span-6">
                         <div class="flex w-full p-4 mb-3 border border-gray-300">
                             <div class="w-5/6 px-2">
-                                <label for="formFile" class="inline-block mb-2 text-gray-500">กราฟอุณหภูมิ</label>
+                                <label for="formFile" class="inline-block mb-2 text-gray-500">
+                                    Temperature graph
+                                </label>
                                 <LineChart :height="128" />
                             </div>
                             <div class="flex items-center justify-center w-1/6">
@@ -28,12 +30,12 @@
                     <div class="flex justify-center md:col-span-6">
                         <div class="flex w-full p-4 mb-3 border border-gray-300">
                             <div class="w-5/6 px-2">
-                                <label for="formFile" class="inline-block mb-2 text-gray-500">กราฟความชื้น</label>
+                                <label for="formFile" class="inline-block mb-2 text-gray-500">Humidity graph</label>
                                 <LineChart :chart-data="chartData" :height="128" />
                             </div>
                             <div class="flex items-center justify-center w-1/6">
                                 <h4 class="text-center text-md lg:text-xl font-bold leading-tight text-gray-800 mb-2.5">
-                                    35 %
+                                    90 %
                                 </h4>
                             </div>
                         </div>
@@ -45,17 +47,17 @@
                             <div class="w-full md:space-x-2 md:flex md:col-span-12">
                                 <!-- route name -->
                                 <div class="w-full mb-3">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">ชื่อเส้นทาง*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">Route name*</label>
                                     <input disabled value="ระยะทางใกล้ที่สุด" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-800 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="text" placeholder="ระยะทางใกล้ที่สุด">
                                 </div>
                                 <!-- origin name -->
                                 <div class="w-full">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">ต้นทาง*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">Origin*</label>
                                     <input disabled value="กรุงเทพ" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-800 bg-gray-100 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="text" placeholder="กรุงเทพ">
                                 </div>
                                 <!-- desination name -->
                                 <div class="w-full">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">ปลายทาง*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">Destination*</label>
                                     <input disabled value="เชียงใหม่" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-800 bg-gray-100 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="text" placeholder="เชียงใหม่">
                                 </div>
                                 
@@ -79,7 +81,7 @@
                             <!-- contianer picture -->
                             <div class="flex justify-center lg:col-span-9">
                                 <div class="w-full mb-3">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500">รูปถ่ายคอนเทนเนอร์*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500">Container picture*</label>
                                     <div class="py-3 border border-gray-300 border-solid rounded">
                                         <img 
                                         class="object-contain w-5/6 h-32 mx-auto" 
@@ -93,12 +95,12 @@
                             <div class="w-full lg:col-span-3">
                                 <!-- contianer name -->
                                 <div class="w-full mb-3">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500">รหัสตู้*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500">ID*</label>
                                     <input disabled value="CTN-0001" class="block w-full px-3 py-1.5 text-base font-normal text-gray-800 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="text" placeholder="CTN-0001">
                                 </div>
                                 <!-- contianer size -->
                                 <div class="w-full mb-3">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500">ขนาด(ฟุต)*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500">SIZE(feet unit)*</label>
                                     <input disabled value="20" class="block w-full px-3 py-1.5 text-base font-normal text-gray-800 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="text" placeholder="30">
                                 </div>
                             </div>
@@ -111,7 +113,7 @@
                             <!-- truck picture -->
                             <div class="flex justify-center lg:col-span-9">
                                 <div class="w-full mb-3">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">รูปรถบรรทุก*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">Truck picture*</label>
                                     <div class="py-3 border border-gray-300 border-solid rounded ">
                                         <img 
                                         class="object-contain w-5/6 h-32 mx-auto" 
@@ -125,12 +127,12 @@
                             <div class="w-full lg:col-span-3">
                                 <!-- vehicle registration number -->
                                 <div class="w-full mb-3">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">ทะเบียนรถ*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">Car registration*</label>
                                     <input disabled value="3กจ 1589" class="block w-full px-3 py-1.5 text-base font-normal text-gray-800 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="text" placeholder="สมชาย เมืองสิง">
                                 </div>
                                 <!-- number of wheels -->
                                 <div class="w-full mb-3">
-                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">จำนวนล้อ*</label>
+                                    <label for="formFile" class="inline-block mb-2 text-gray-500 form-label">Wheels*</label>
                                     <input disabled value="4" class="block w-full px-3 py-1.5 text-base font-normal text-gray-800 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" type="number" placeholder="4">
                                 </div>
                             </div>
@@ -174,9 +176,9 @@
                     ],
                     datasets: [
                         {
-                            borderColor: "#ef4444",
-                            backgroundColor: "#ef4444",
-                            data: [80, 39, 10, 40, 12, 80, 35, 12, 39, 16, 40, 48, 80, 48],
+                            borderColor: "#00008B",
+                            backgroundColor: "#00008B",
+                            data: [12, 39, 16, 40, 48, 80, 80, 39, 10, 40, 12, 80, 35, 90],
                         },
                     ],
                 },
